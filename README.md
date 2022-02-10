@@ -17,4 +17,4 @@ https://discord.gg/tqXSPDzQ
 - ex) 프로그래머스 : sol_lv2_메뉴리뉴얼
 
 ## 커밋규칙
-- yyyyddmm_이름
+- yyyymmdd_이름
