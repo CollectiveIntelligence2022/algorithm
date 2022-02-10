@@ -34,6 +34,7 @@ public class bj_18429_근손실 {
 	private static void perm(int cnt, int sum) {
 		if (cnt == N) {
 			answer++;
+			return;
 		}
 		
 		if (sum < 500) {
