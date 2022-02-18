@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main_g5_16234_인구이동 {
+public class Boj_g5_16234_인구이동 {
 	static ArrayDeque<int[]> q = new ArrayDeque<>();
 	static int[][] map;
 	static boolean[][] visit;
