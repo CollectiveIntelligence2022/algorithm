@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main_g3_14890_경사로 {
+public class Boj_g3_14890_경사로 {
 	static int N, L, res;
 
 	public static void main(String[] args) throws Exception {
