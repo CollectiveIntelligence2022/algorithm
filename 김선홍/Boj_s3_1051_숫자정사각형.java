@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main_s3_1051_숫자정사각형 {
+public class Boj_s3_1051_숫자정사각형 {
 	static int[][] arr;
 	static int N, M;
 
@@ -23,14 +23,11 @@ public class Main_s3_1051_숫자정사각형 {
 		br.close();
 	}
 
-	// Ǯ��
 	private static int solution() {
 		int res = 0;
-
-		// ��� ����� �� �˻�
+		
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < M; j++) {
-				// �ִ� ����
 				res = Math.max(res, brute(i, j));
 			}
 		}
@@ -38,9 +35,7 @@ public class Main_s3_1051_숫자정사각형 {
 		return res;
 	}
 
-	// ������ ������ �����ϴ� �ִ� ���簢�� ũ�⸦ ��ȯ
 	private static int brute(int x, int y) {
-		// len: �þ ���� ����
 		int len = 0, size = 0;
 
 		while (x + len < N && y + len < M) {
@@ -54,7 +49,6 @@ public class Main_s3_1051_숫자정사각형 {
 		return size;
 	}
 
-	// ��� �������� ���� �������� �˻�
 	private static boolean check(int x, int y, int s) {
 		return arr[x][y] == arr[x + s][y] && arr[x][y] == arr[x][y + s] && arr[x][y] == arr[x + s][y + s];
 	}
