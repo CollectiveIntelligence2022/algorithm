@@ -14,7 +14,7 @@ import java.util.*;
  * 2. 순열을 하나씩 만들어 가면서 중간에 sum값이 500을 넘지 못한다면 현재 탐색을 중단하고 다음 탐색을 시작한다.(가지치기)
  * 느낀 점: 순열을 구해야 한다는 것을 파악하면 어렵지 않은 문제이고 중간에 가지치기를 해주면 효율성이 보장되는 알고리즘이 된다.
  */
-public class Main_s3_18429_근손실 {
+public class Boj_s3_18429_근손실 {
 	static int[] weight;
 	static boolean[] isUsed;
 	static int N, K, res;
