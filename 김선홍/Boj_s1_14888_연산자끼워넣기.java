@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main_s1_14888_연산자끼워넣기 {
+public class Boj_s1_14888_연산자끼워넣기 {
 	static int[] num, op;
 	static int N, max = Integer.MIN_VALUE, min = Integer.MAX_VALUE;
 
