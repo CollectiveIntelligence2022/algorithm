@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main_g5_7576_토마토 {
+public class Boj_g5_7576_토마토 {
 	static ArrayDeque<int[]> q = new ArrayDeque<>();
 	static int[][] map;
 	static int[] dx = { -1, 1, 0, 0 };
