@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Main_b1_1259_팰린드롬수 {
+public class Boj_b1_1259_팰린드롬수 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
@@ -14,7 +14,6 @@ public class Main_b1_1259_팰린드롬수 {
 			}
 
 			boolean flag = true;
-			// �ռ��ڿ� �޼��ڸ� ���ʴ�� ���Ͽ� �߰��� ���ڰ� �ٸ��ٸ� �Ӹ���Ҽ��� �ƴ�
 			for (int i = 0; i < size / 2; i++) {
 				if (str.charAt(i) != str.charAt(size - 1 - i)) {
 					flag = false;
