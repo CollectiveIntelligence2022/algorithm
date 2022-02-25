@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class sol_완주하지못한선수 {
     
     static String answer = "";
     
