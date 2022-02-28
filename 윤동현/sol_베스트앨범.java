@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class sol_베스트앨범 {
     
     static class Best implements Comparable<Best> {
         int index;
