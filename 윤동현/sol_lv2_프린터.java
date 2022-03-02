@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class sol_lv2_프린터 {
     public int solution(int[] priorities, int location) {
         // max 값 구하기
         int max = Arrays.stream(priorities).max().getAsInt();
