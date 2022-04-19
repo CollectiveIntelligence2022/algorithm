@@ -1,4 +1,4 @@
-class Solution {
+class sol_lv2_양궁대회 {
     
     final static int MAX = 11;
     static int maxScore;
