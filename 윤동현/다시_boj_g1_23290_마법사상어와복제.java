@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class boj_g1_23290_마법사상어와복제 {
+public class 다시_boj_g1_23290_마법사상어와복제 {
 
     static class Fish {
         int r, c, d;
